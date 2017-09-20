@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Counter from './Counter';
+import SampleText from './SampleText';
  
 document.addEventListener('DOMContentLoaded', function() {
   ReactDOM.render(
     <div>
-      <Counter />
+      <SampleText />
     </div>,
     document.getElementById('mount')
   );
